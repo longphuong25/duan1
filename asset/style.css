@@ -1,0 +1,81 @@
+
+
+
+body{
+   height: 100vh;
+   display: flex;
+  flex-direction: column;
+   
+}  
+
+   div{
+   /*text-align: center;
+  height: 100vh;
+  line-height: 100vh;*/
+  margin: auto;
+  
+  }
+
+ 
+ .btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    
+    border-radius: 20px;
+    color: #fff;
+
+ }
+
+ 
+ .btn+.btn{
+   margin-left: 16px;
+ }
+ /*dung div không dung button*/
+ /* body{
+   height: 100vh;
+  display: flex;
+  
+}
+ body > div{
+   
+   margin: auto;
+ }
+ .button{
+   
+ }
+ .btn{
+    display: inline-block;
+    height: 36px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 8px 20px;
+    line-height: 36px;
+    text-align: center;
+
+ }*/
+ .btn:hover{
+  opacity: 0.8;
+  cursor: pointer;
+ }
+ .btn--disable{
+   opacity: 0.5 !important;
+   cursor: default;
+ }
+ .btn--btn-size-s{
+   padding: 4px 12px;
+ }
+ .btn--btn-size-l{
+   padding: 12px 24px;
+ }
+ .btn--success{
+    background-color:rgb(116, 189, 55) ;
+}
+ .btn--warn{
+    background-color: rgb(255, 183, 3);
+   
+ }
+ .btn--danger{
+    background-color:  rgb(253, 100, 58);
+}
